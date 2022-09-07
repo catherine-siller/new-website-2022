@@ -123,7 +123,7 @@ function App() {
           <SVG src={LinkedinIcon} />
         </a>
         <h1>Hi! I'm Catherine</h1>
-        <h2>Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously @Mailgun. I love all things web that are modern, fast, and pretty. Keeping it cute on the web and irl.</h2>
+        <h2>Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. Keeping it cute on the web and irl.</h2>
         <h2>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></h2>
       </div>
     </Section>
