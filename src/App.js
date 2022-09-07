@@ -140,7 +140,7 @@ function App() {
       <h1>Skills</h1>
     </Section>
 
-    <Section>
+    <Section id='contact'>
       <h1>Contact</h1>
       <div className="content">
         Email Me
