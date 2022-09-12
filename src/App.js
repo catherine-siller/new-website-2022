@@ -20,20 +20,44 @@ const TopLine = styled.div`
 `
 
 const Section = styled.section`
-  font-family: work sans;
+  color: #444444;
+  font-family: "Poppins",sans-serif;
   margin: 0 auto;
   max-width: 800px;
   padding-top: 24px;
   width: 100%;
 
-  article {
-    margin-bottom: 64px;
-  }
-
   > div.top {
     display: block;
     margin: 24px auto 0;
     text-align: center;
+
+    h1 {
+      font-size: 64px;
+      font-weight: 500;
+      margin: 16px 0 0;
+
+      > span {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #0000;
+        background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
+        background-size: cover;
+      }
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 0 32px;
+
+      &:not(:first-of-type) {
+        margin-top: 8px;
+      }
+    }
 
     > img {
       border-radius: 50%;
@@ -84,20 +108,6 @@ const Section = styled.section`
       64%      { color: #B10DC9; fill: #B10DC9;}
       80%      { color: #FF4136; fill: #FF4136;}
     }
-
-    h1 {
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: #0000;
-      background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
-      background-size: cover;
-      font-size: 28px;
-      font-weight: 500;
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 400;
-    }
   }
 `
 
@@ -123,14 +133,17 @@ function App() {
         <a href="https://www.linkedin.com/in/catherinesiller/" target="_blank" rel="noreferrer" title="My Linkedin" aria-label="Linkedin">
           <SVG src={LinkedinIcon} />
         </a>
-        <h1>Hi! I'm Catherine</h1>
-        <h2>Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. Keeping it cute on the web and irl.</h2>
-        <h2>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></h2>
+        <h1>Hi! I'm <span>Catherine Siller</span></h1>
+        <h2>A Front End Software Developer</h2>
+        <p>
+          Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously 
+          <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. Keeping it cute on the web and irl.</p>
+        <p>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></p>
       </div>
     </Section>
 
     <Section id='projects'>
-      <h1>Projects</h1>
+      <Projects />
     </Section>
 
     <Section id='skills'>

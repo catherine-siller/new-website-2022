@@ -1,14 +1,31 @@
-//import { projects } from '../../portfolio'
 import './Projects.css'
+import LaunchIcon from '../../assets/svg/launch.svg'
 
 const Projects = () => {
-  //if (!projects.length) return null
-
   return (
     <section id='projects' className='section projects'>
       <h2 className='section-title'>Projects</h2>
-
       <div className='projects-grid'>
+        <div className='project'>
+          <h3>Andrea Lynn Beauty</h3>
+          <p className='project-description'></p>
+            <a
+              href="https://www.andrealynnofficial.com/"
+              aria-label="Andrea Lynn Beauty Website"
+              className='link link--icon'
+            >
+            </a>
+        </div>
+        <div className='project'>
+          <h3>Central Coast Face Lab</h3>
+          <p className='project-description'></p>
+            <a
+              href="https://www.centralcoastfacelab.com/"
+              aria-label="Central Coast Face Lab Website"
+              className='link link--icon'
+            >
+            </a>
+        </div>
       </div>
     </section>
   )
