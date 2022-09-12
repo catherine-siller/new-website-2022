@@ -5,6 +5,7 @@ import SVG from 'react-inlinesvg'
 
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
+import CatherineSillerResume from './assets/Catherine_Siller_Resume.pdf'
 import GithubIcon from './assets/svg/github.svg'
 import LinkedinIcon from './assets/svg/linkedin.svg'
 import favicon from './assets/images/favicon.ico'
@@ -128,25 +129,26 @@ function App() {
       </div>
     </Section>
 
-    <Section>
-      <h1>Freelance Projects</h1>
+    <Section id='projects'>
+      <h1>Projects</h1>
     </Section>
 
-    <Section>
-      <h1>Professional Projects</h1>
-    </Section>
-
-    <Section>
+    <Section id='skills'>
       <h1>Skills</h1>
     </Section>
 
     <Section id='contact'>
       <h1>Contact</h1>
       <div className="content">
-        Email Me
+        <a href="mailto:catsiller12@gmail.com">Email Me!</a>
       </div>
       <div className="content">
-        Download Resume
+        <a
+          href={CatherineSillerResume}
+          download
+        >
+          Download Resume
+        </a>
       </div>
     </Section>
 
