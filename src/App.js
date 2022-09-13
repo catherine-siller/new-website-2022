@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {Helmet} from "react-helmet";
 import SVG from 'react-inlinesvg'
 
+import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
 import CatherineSillerResume from './assets/Catherine_Siller_Resume.pdf'
@@ -33,7 +34,7 @@ const Section = styled.section`
     text-align: center;
 
     h1 {
-      font-size: 64px;
+      font-size: 56px;
       font-weight: 500;
       margin: 16px 0 0;
 
@@ -121,6 +122,7 @@ function App() {
       <link rel="icon" href={favicon} />
     </Helmet>
     <TopLine />
+    <Header />
     <Section>
       <div className="top">
         <img
