@@ -6,6 +6,7 @@ import SVG from 'react-inlinesvg'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
 import CatherineSillerResume from './assets/Catherine_Siller_Resume.pdf'
 import GithubIcon from './assets/svg/github.svg'
 import LinkedinIcon from './assets/svg/linkedin.svg'
@@ -20,12 +21,27 @@ const TopLine = styled.div`
   z-index: 100;
 `
 
+const Contact = styled.div`
+  display: inline-flex;
+`
+
+const Button = styled.div`
+  border: 2px solid #1098AD;
+  display: block;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: lowercase;
+`
+
 const Section = styled.section`
   color: #444444;
   font-family: "Poppins",sans-serif;
   margin: 0 auto;
   max-width: 800px;
   padding-top: 24px;
+  text-align: center;
   width: 100%;
 
   > div.top {
@@ -149,25 +165,21 @@ function App() {
     </Section>
 
     <Section id='skills'>
-      <h1>Skills</h1>
+      <Skills />
     </Section>
 
     <Section id='contact'>
       <h1>Contact</h1>
-      <div className="content">
-        <a href="mailto:catsiller12@gmail.com">Email Me!</a>
-      </div>
-      <div className="content">
-        <a
-          href={CatherineSillerResume}
-          download
-        >
-          Download Resume
-        </a>
-      </div>
+      <Contact>
+        <Button>
+          <a href="mailto:catsiller12@gmail.com">Email Me!</a>
+        </Button>
+      </Contact>
     </Section>
 
-    <Footer />
+    <Section>
+      <Footer />
+    </Section>
     </>
   );
 }

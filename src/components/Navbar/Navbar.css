@@ -11,6 +11,11 @@ ul {
   margin-left: 1.5em;
 }
 
+.nav-item a {
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
 .nav-hamburger {
   display: none;
 }
