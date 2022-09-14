@@ -1,13 +1,9 @@
-//import { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import SVG from 'react-inlinesvg'
 import SunIcon from '../../assets/svg/sun.svg'
 import './Navbar.css'
 
 const Navbar = () => {
-  //const [showNavList, setShowNavList] = useState(false)
-
-  //const toggleNavList = () => setShowNavList(!showNavList)
-
   return (
     <nav>
       <ul className='nav-list'>
@@ -38,9 +34,18 @@ const Navbar = () => {
         </li>
 
         <li className='nav-item'>
+          <a
+            href='#contact'
+            //onClick={toggleNavList}
+          >
+            Resume
+          </a>
+        </li>
+        
+        {/*
+        <li className='nav-item'>
           <SVG src={SunIcon} />
         </li>
-        {/*
         <button
           type='button'
           aria-label='toggle theme'
