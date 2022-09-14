@@ -155,7 +155,7 @@ function App() {
         <h2>A Front End Software Developer</h2>
         <p>
           Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously 
-          <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. Keeping it cute on the web and irl.</p>
+          <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. I'm keeping it cute on the web and irl.</p>
         <p>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></p>
       </div>
     </Section>

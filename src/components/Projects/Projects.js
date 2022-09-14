@@ -7,23 +7,23 @@ const Projects = () => {
       <h2 className='section-title'>Projects</h2>
       <div className='projects-grid'>
         <div className='project'>
-          <h3>Andrea Lynn Beauty</h3>
           <p className='project-description'></p>
             <a
               href="https://www.andrealynnofficial.com/"
               aria-label="Andrea Lynn Beauty Website"
               className='link link--icon'
             >
+              Andrea Lynn Beauty
             </a>
         </div>
         <div className='project'>
-          <h3>Central Coast Face Lab</h3>
           <p className='project-description'></p>
             <a
               href="https://www.centralcoastfacelab.com/"
               aria-label="Central Coast Face Lab Website"
               className='link link--icon'
             >
+              Central Coast Face Lab
             </a>
         </div>
       </div>
