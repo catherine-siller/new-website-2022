@@ -1,4 +1,4 @@
-.link {
+.link, .project-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: #0000;
   background-image: linear-gradient(90deg,#F79533 0%,#F37055 15%,#EF4E7B 30%,#A166AB 44%,#5073B8 58%,#1098AD 72%,#07B39B 86%,#6DBA82 100%);
@@ -9,5 +9,21 @@
 .projects-grid {
   display: inline-flex;
   justify-content: space-between;
-  width: 550px;
+  width: 100%;
+}
+
+.project {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  transition: transform 0.2s linear;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project-description {
+  margin-top: 1em;
 }

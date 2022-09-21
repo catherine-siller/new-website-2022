@@ -6,26 +6,28 @@ const Projects = () => {
     <section id='projects' className='section projects'>
       <h2 className='section-title'>Projects</h2>
       <div className='projects-grid'>
-        <div className='project'>
-          <p className='project-description'></p>
-            <a
-              href="https://www.andrealynnofficial.com/"
-              aria-label="Andrea Lynn Beauty Website"
-              className='link link--icon'
-            >
-              Andrea Lynn Beauty
-            </a>
-        </div>
-        <div className='project'>
-          <p className='project-description'></p>
-            <a
-              href="https://www.centralcoastfacelab.com/"
-              aria-label="Central Coast Face Lab Website"
-              className='link link--icon'
-            >
-              Central Coast Face Lab
-            </a>
-        </div>
+        <a
+          href="https://www.andrealynnofficial.com/"
+          aria-label="Andrea Lynn Beauty Website"
+          className='link'
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className='project'>
+          <p className='project-title'>Andrea Lynn Beauty</p>
+          </div>
+        </a>
+        <a
+          href="https://www.centralcoastfacelab.com/"
+          aria-label="Central Coast Face Lab Website"
+          className='link'
+          rel="noreferrer"
+          target="_blank"
+        >
+          <div className='project'>
+            <p className='project-title'>Central Coast Face Lab</p>
+          </div>
+        </a>
       </div>
     </section>
   )
