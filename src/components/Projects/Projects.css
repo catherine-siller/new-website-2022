@@ -3,12 +3,13 @@
   -webkit-text-fill-color: #0000;
   background-image: linear-gradient(90deg,#F79533 0%,#F37055 15%,#EF4E7B 30%,#A166AB 44%,#5073B8 58%,#1098AD 72%,#07B39B 86%,#6DBA82 100%);
   background-size: cover;
+  margin-top: 0;
   text-decoration: none; 
 }
 
 .projects-grid {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -18,6 +19,11 @@
   padding: 2em;
   text-align: center;
   transition: transform 0.2s linear;
+}
+
+.project > img {
+  height: 250px;
+  width: 420px;
 }
 
 .project:hover {
