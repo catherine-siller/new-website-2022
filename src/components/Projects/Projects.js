@@ -1,5 +1,8 @@
 import './Projects.css'
 import LaunchIcon from '../../assets/svg/launch.svg'
+import AndreaLynnBeauty from '../../assets/images/andrea-lynn-beauty.png'
+import FaceLab from '../../assets/images/face-lab.png'
+
 
 const Projects = () => {
   return (
@@ -14,7 +17,11 @@ const Projects = () => {
           target="_blank"
         >
           <div className='project'>
-          <p className='project-title'>Andrea Lynn Beauty</p>
+            <p className='project-title'>Andrea Lynn Beauty</p>
+            <img
+            alt="Catherine Siller"
+            src={require('../../assets/images/andrea-lynn-beauty.png')}
+        />
           </div>
         </a>
         <a
@@ -26,6 +33,10 @@ const Projects = () => {
         >
           <div className='project'>
             <p className='project-title'>Central Coast Face Lab</p>
+            <img
+              alt="Catherine Siller"
+              src={require('../../assets/images/face-lab.png')}
+            />
           </div>
         </a>
       </div>
