@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {Helmet} from "react-helmet";
 import SVG from 'react-inlinesvg'
 
+import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
