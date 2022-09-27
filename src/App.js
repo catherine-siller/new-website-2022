@@ -38,7 +38,7 @@ const Button = styled.div`
 const Section = styled.section`
   color: #444444;
   font-family: "Poppins",sans-serif;
-  margin: 0 auto;
+  margin: 64px auto;
   max-width: 800px;
   padding-top: 24px;
   text-align: center;
