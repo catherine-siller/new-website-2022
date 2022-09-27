@@ -9,3 +9,9 @@
 .skills-list-item {
   margin: 8px;
 }
+
+@media only screen and (max-width: 768px) {
+  .skills-list {
+    padding-inline-start: 0px;
+  }
+}
