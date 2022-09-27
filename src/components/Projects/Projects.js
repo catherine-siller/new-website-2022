@@ -1,8 +1,4 @@
 import './Projects.css'
-import LaunchIcon from '../../assets/svg/launch.svg'
-import AndreaLynnBeauty from '../../assets/images/andrea-lynn-beauty.png'
-import FaceLab from '../../assets/images/face-lab.png'
-
 
 const Projects = () => {
   return (

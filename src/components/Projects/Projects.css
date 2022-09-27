@@ -9,6 +9,7 @@
 
 .projects-grid {
   display: inline-flex;
+  gap: 64px;
   justify-content: space-around;
   width: 100%;
 }
