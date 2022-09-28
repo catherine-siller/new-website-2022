@@ -1,6 +1,6 @@
-import { useContext, useState } from 'react'
-import SVG from 'react-inlinesvg'
-import SunIcon from '../../assets/svg/sun.svg'
+//import { useContext, useState } from 'react'
+//import SVG from 'react-inlinesvg'
+//import SunIcon from '../../assets/svg/sun.svg'
 import './Navbar.css'
 
 const Navbar = () => {
