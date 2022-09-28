@@ -32,7 +32,8 @@ const Navbar = () => {
             Contact
           </a>
         </li>
-
+        
+        {/*
         <li className='nav-item'>
           <a
             href='#contact'
@@ -41,8 +42,6 @@ const Navbar = () => {
             Resume
           </a>
         </li>
-        
-        {/*
         <li className='nav-item'>
           <SVG src={SunIcon} />
         </li>
