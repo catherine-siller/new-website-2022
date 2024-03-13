@@ -35,21 +35,6 @@ const Projects = () => {
             />
           </div>
         </a>
-        <a
-          href="https://valadezcpa.com/"
-          aria-label="Valadez CPA Website"
-          className='link'
-          rel="noreferrer"
-          target="_blank"
-        >
-          <div className='project'>
-            <p className='project-title'>Valadez CPA</p>
-            <img
-              alt="Catherine Siller"
-              src={require('../../assets/images/valadez-cpa.png')}
-            />
-          </div>
-        </a>
       </div>
     </section>
   )

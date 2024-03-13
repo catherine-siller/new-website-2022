@@ -8,7 +8,6 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
-//import CatherineSillerResume from './assets/Catherine_Siller_Resume.pdf'
 import GithubIcon from './assets/svg/github.svg'
 import LinkedinIcon from './assets/svg/linkedin.svg'
 import favicon from './assets/images/favicon.ico'
@@ -153,10 +152,9 @@ function App() {
           <SVG src={LinkedinIcon} />
         </a>
         <h1>Hi! I'm <span>Catherine Siller</span></h1>
-        <h2>Senior Software Developer</h2>
-        <h3>focused on front end development and user experiences</h3>
+        <h2>Front End Software Developer</h2>
         <p>
-          Previous senior software engineer at <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a> and
+          Front end software developer currently <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a>, previously 
           <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. I'm keeping it cute on the web and irl.</p>
         <p>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></p>
       </div>
