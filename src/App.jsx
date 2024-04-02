@@ -133,7 +133,7 @@ function App() {
     <>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>Catherine Siller's Portfolio</title>
+      <title>Catherine Siller — Software Engineer</title>
       <link rel="canonical" href="http://www.catherine-siller.com/" />
       <link rel="icon" href={favicon} />
     </Helmet>

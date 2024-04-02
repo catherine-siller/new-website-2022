@@ -51,7 +51,7 @@ const Section = styled.section`
     text-align: center;
 
     h1 {
-      font-size: 56px;
+      font-size: 42px;
       font-weight: 500;
       margin: 16px 0 0;
 
@@ -64,8 +64,8 @@ const Section = styled.section`
     }
 
     h2 {
-      font-size: 32px;
-      font-weight: 700;
+      font-size: 28px;
+      font-weight: 400;
     }
 
     p {
@@ -152,12 +152,11 @@ function App() {
         <a href="https://www.linkedin.com/in/catherinesiller/" target="_blank" rel="noreferrer" title="My Linkedin" aria-label="Linkedin">
           <SVG src={LinkedinIcon} />
         </a>
-        <h1>Hi! I'm <span>Catherine Siller</span></h1>
+        <h1>Hi, I'm <span>Catherine Siller — </span></h1>
         <h2>Senior Software Developer</h2>
-        <h3>focused on front end development and user experiences</h3>
         <p>
-          Previous senior software engineer at <a href="https://twitter.com/hulu" target="_blank" rel="noreferrer">@Hulu</a> and
-          <a href="https://twitter.com/Mail_Gun" target="_blank" rel="noreferrer">@Mailgun</a>. I love all things web that are modern, fast, and pretty. I'm keeping it cute on the web and irl.</p>
+          Previous senior software engineer at <a href="https://www.hulu.com/welcome" target="_blank" rel="noreferrer">@Hulu</a> and
+          <a href="https://www.mailgun.com/" target="_blank" rel="noreferrer">@Mailgun</a>.I help small businesses and growing companies build sustainable, enduring user experiences.</p>
         <p>Currently accepting freelance projects, <a href="mailto:catsiller12@gmail.com">email me!</a></p>
       </div>
     </Section>
