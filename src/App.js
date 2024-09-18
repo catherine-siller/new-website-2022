@@ -230,7 +230,7 @@ function App() {
         <div className="top">
           <img
             alt="Catherine Siller"
-            src={require("./assets/images/avatar.png")}
+            src={require("./assets/images/my-logo.png")}
           />
           <a
             href="https://github.com/cathysiller"
