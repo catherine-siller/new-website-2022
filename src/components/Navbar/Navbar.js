@@ -1,38 +1,29 @@
 //import { useContext, useState } from 'react'
 //import SVG from 'react-inlinesvg'
 //import SunIcon from '../../assets/svg/sun.svg'
-import './Navbar.css'
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <ul className='nav-list'>
-        <li className='nav-item'>
-          <a
-            href='#projects'
-          >
-            Projects
-          </a>
+      <ul className="nav-list">
+        <li className="nav-item">
+          <a href="#projects">Projects</a>
         </li>
 
-        <li className='nav-item'>
+        <li className="nav-item">
           <a
-            href='#skills'
+            href="#skills"
             //onClick={toggleNavList}
           >
             Skills
           </a>
         </li>
 
-        <li className='nav-item'>
-          <a
-            href='#contact'
-            //onClick={toggleNavList}
-          >
-            Contact
-          </a>
+        <li className="nav-item">
+          <a href="mailto:catsiller12@gmail.com">Contact</a>
         </li>
-        
+
         {/*
         <li className='nav-item'>
           <a
@@ -54,7 +45,7 @@ const Navbar = () => {
         */}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -126,7 +126,7 @@ const Section = styled.section`
     }
 
     .icon {
-      margin-right: 8px;
+      margin-right: 24px;
     }
 
     @-webkit-keyframes omg {
@@ -289,9 +289,9 @@ function App() {
       <Section id="contact">
         <h1>Contact</h1>
         <Contact>
-          <Button>
-            <a href="mailto:catsiller12@gmail.com">Email Me!</a>
-          </Button>
+          <a href="mailto:catsiller12@gmail.com">
+            <Button>Email Me!</Button>
+          </a>
         </Contact>
       </Section>
 
