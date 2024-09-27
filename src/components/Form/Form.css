@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  //gap: 24px;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  background-color: #e8f0fe;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 0 32px;
+  padding: 12px;
+}
+
+textarea {
+  background-color: #e8f0fe;
+  border-color: rgb(31, 28, 28);
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 4px 0 32px;
+  padding: 12px;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid black;
+  font-size: 20px;
+  padding: 10px;
+  width: 30%;
+  margin: auto auto;
+}
+
+@media only screen and (min-width: 1025px) {
+  form {
+    margin: auto auto;
+    max-width: 75%;
+  }
+}

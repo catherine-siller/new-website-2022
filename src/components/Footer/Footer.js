@@ -1,14 +1,9 @@
-import './Footer.css'
-
 const Footer = () => (
-  <footer className='footer'>
-    <a
-      href='https://github.com/cathysiller'
-      className='footer-link'
-    >
+  <footer className="footer">
+    <a href="https://github.com/cathysiller" className="footer-link">
       Created By ✨Me✨
     </a>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

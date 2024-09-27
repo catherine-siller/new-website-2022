@@ -3,8 +3,8 @@ ul {
 }
 
 .nav-list {
-  margin-right: 1.5em;
   display: flex;
+  margin-right: 1.5em;
 }
 
 .nav-item {
@@ -13,27 +13,26 @@ ul {
 
 .nav-item a {
   font-weight: 600;
-  text-transform: lowercase;
 }
 
 .nav-hamburger {
   display: none;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 600px) {
   .nav-list {
+    align-items: center;
     display: none;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    inset: 0;
-    width: 100%;
     height: 100%;
+    inset: 0;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
     z-index: 2;
   }
 

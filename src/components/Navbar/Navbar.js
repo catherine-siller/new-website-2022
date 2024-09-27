@@ -8,12 +8,12 @@ const Navbar = () => {
     <nav>
       <ul className="nav-list">
         <li className="nav-item">
-          <a href="#projects">Projects</a>
+          <a href="#Projects">Projects</a>
         </li>
 
         <li className="nav-item">
           <a
-            href="#skills"
+            href="#Skills"
             //onClick={toggleNavList}
           >
             Skills
@@ -21,9 +21,13 @@ const Navbar = () => {
         </li>
 
         <li className="nav-item">
-          <a href="mailto:catsiller12@gmail.com">Contact</a>
+          <a
+            href="#Contact"
+            //onClick={toggleNavList}
+          >
+            Contact
+          </a>
         </li>
-
         {/*
         <li className='nav-item'>
           <a

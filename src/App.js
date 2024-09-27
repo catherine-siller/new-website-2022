@@ -5,6 +5,7 @@ import SVG from "react-inlinesvg";
 
 import "./App.css";
 import Header from "./components/Header/Header";
+import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
@@ -28,29 +29,13 @@ const TopLine = styled.div`
   z-index: 100;
 `;
 
-const Contact = styled.div`
-  display: inline-flex;
-`;
-
-const Button = styled.div`
-  border: 2px solid #1098ad;
-  display: block;
-  cursor: pointer;
-  padding: 16px 32px;
-  font-weight: 600;
-  font-size: 16px;
-  text-transform: lowercase;
-`;
-
 const Section = styled.section`
   color: #444444;
   font-family: "Poppins", sans-serif;
   margin: 64px auto;
-  //padding-top: 24px;
-  //padding: 24px 48px 0;
+  overflow: hidden;
   text-align: center;
   width: 100%;
-  overflow: hidden;
 
   > div.top {
     display: block;
@@ -87,8 +72,8 @@ const Section = styled.section`
 
     p {
       font-size: 18px;
-      max-width: 800px;
       margin: auto auto;
+      max-width: 800px;
       word-wrap: break-word;
 
       &:not(:first-of-type) {
@@ -273,26 +258,23 @@ function App() {
           </p>
           <p>
             Currently accepting freelance projects,{" "}
-            <a href="mailto:catsiller12@gmail.com">email me!</a>
+            <a href="#Contact">contact me!</a>
           </p>
         </div>
       </Section>
 
-      <Section id="projects">
+      <Section id="Projects">
         <Projects />
       </Section>
 
-      <Section id="skills">
+      <Section id="Skills">
         <Skills />
       </Section>
 
-      <Section id="contact">
-        <h1>Contact</h1>
-        <Contact>
-          <a href="mailto:catsiller12@gmail.com">
-            <Button>Email Me!</Button>
-          </a>
-        </Contact>
+      <Section id="Contact">
+        <h1>Contact Me</h1>
+
+        <Form />
       </Section>
 
       <Section>
