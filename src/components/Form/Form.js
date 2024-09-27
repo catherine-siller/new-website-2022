@@ -43,10 +43,10 @@ const Form = () => {
     // bind formRef to our form element
     <>
       <form ref={formRef} onSubmit={sendFormData}>
-        <label htmlFor="nameInput">Full Name*</label>
+        <label htmlFor="nameInput">Full name*</label>
         <input type="text" id="nameInput" name="name" required />
 
-        <label htmlFor="emailInput">Email Address*</label>
+        <label htmlFor="emailInput">Email address*</label>
         <input type="email" id="emailInput" name="name" required />
 
         <label htmlFor="messageInput">
@@ -57,7 +57,11 @@ const Form = () => {
         <button type="submit">Send</button>
       </form>
 
-      {success && <div>{"success"}</div>}
+      {success && (
+        <div className="successMessage">
+          {"Thank you for reaching out, I will contact you soon!"}
+        </div>
+      )}
     </>
   );
 };

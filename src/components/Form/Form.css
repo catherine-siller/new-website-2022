@@ -1,7 +1,6 @@
 form {
   display: flex;
   flex-direction: column;
-  //gap: 24px;
 }
 
 label {
@@ -9,8 +8,8 @@ label {
 }
 
 input {
-  background-color: #e8f0fe;
-  border-color: rgb(31, 28, 28);
+  background-color: #fff;
+  border: 1px solid #eceff9;
   border-radius: 5px;
   font-size: 16px;
   margin: 4px 0 32px;
@@ -18,8 +17,8 @@ input {
 }
 
 textarea {
-  background-color: #e8f0fe;
-  border-color: rgb(31, 28, 28);
+  background-color: #fff;
+  border: 1px solid #eceff9;
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -28,17 +27,28 @@ textarea {
 }
 
 button {
-  border-radius: 5px;
-  border: 2px solid black;
-  font-size: 20px;
-  padding: 10px;
-  width: 30%;
+  background: rgb(18, 27, 43);
+  border-radius: 6px;
+  border: 1px solid #eceff9;
+  box-shadow: unset;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
   margin: auto auto;
+  padding: 10px;
+  transition: 150ms;
+  width: 30%;
+}
+
+.successMessage {
+  padding-top: 48px;
 }
 
 @media only screen and (min-width: 1025px) {
   form {
     margin: auto auto;
-    max-width: 75%;
+    max-width: 50%;
   }
 }

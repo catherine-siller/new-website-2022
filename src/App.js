@@ -32,10 +32,17 @@ const TopLine = styled.div`
 const Section = styled.section`
   color: #444444;
   font-family: "Poppins", sans-serif;
-  margin: 64px auto;
   overflow: hidden;
   text-align: center;
   width: 100%;
+
+  :not(:first-of-type) {
+    margin: 200px auto;
+  }
+
+  :last-of-type {
+    margin-bottom: 64px;
+  }
 
   > div.top {
     display: block;
@@ -73,7 +80,7 @@ const Section = styled.section`
     p {
       font-size: 18px;
       margin: auto auto;
-      max-width: 800px;
+      width: 50%;
       word-wrap: break-word;
 
       &:not(:first-of-type) {
@@ -253,8 +260,8 @@ function App() {
             <a href="https://www.mailgun.com/" target="_blank" rel="noreferrer">
               @Mailgun
             </a>
-            . I also help small businesses build sustainable and enduring user
-            experiences.
+            . I also build websites for small businesses who want to attract
+            clients.
           </p>
           <p>
             Currently accepting freelance projects,{" "}

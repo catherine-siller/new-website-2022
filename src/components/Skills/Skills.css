@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  max-width: 564px;
+  width: 50%;
 }
 
 .skills-list-item {
