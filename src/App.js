@@ -260,8 +260,8 @@ function App() {
             <a href="https://www.mailgun.com/" target="_blank" rel="noreferrer">
               @Mailgun
             </a>
-            . I also build websites for small businesses who want to attract
-            clients.
+            . I also build websites for small businesses, empowering them to
+            attract the clients that they want to work with.
           </p>
           <p>
             Currently accepting freelance projects,{" "}
