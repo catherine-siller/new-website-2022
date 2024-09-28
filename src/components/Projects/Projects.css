@@ -3,13 +3,12 @@
     display: inline-flex;
     flex-direction: column;
     gap: 36px;
+    padding: 0 48px 32px;
   }
 
   .project {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: auto auto;
-    max-width: 50%;
-    padding: 12px 0;
+    padding: 16px 0;
     width: 100%;
   }
 
