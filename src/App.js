@@ -86,6 +86,23 @@ const Section = styled.section`
       &:not(:first-of-type) {
         padding-top: 16px;
       }
+
+      > span {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #0000;
+        background-image: linear-gradient(
+          90deg,
+          #f79533 0%,
+          #f37055 15%,
+          #ef4e7b 30%,
+          #a166ab 44%,
+          #5073b8 58%,
+          #1098ad 72%,
+          #07b39b 86%,
+          #6dba82 100%
+        );
+        background-size: cover;
+      }
     }
 
     > img {
@@ -246,7 +263,7 @@ function App() {
           <h1>
             Hi, I'm <span>Catherine Siller</span>
           </h1>
-          <h2>Senior Software Developer</h2>
+          <h2>Website Designer & Developer</h2>
           <p>
             Previous senior software engineer at{" "}
             <a
@@ -260,8 +277,9 @@ function App() {
             <a href="https://www.mailgun.com/" target="_blank" rel="noreferrer">
               @Mailgun
             </a>
-            . I also build websites for small businesses, empowering them to
-            attract the clients that they want to work with.
+            . I also create <span>beautiful</span> websites for small
+            businesses, empowering them to attract the clients that they want to
+            work with.
           </p>
           <p>
             Currently accepting freelance projects,{" "}
